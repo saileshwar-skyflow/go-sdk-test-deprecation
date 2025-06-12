@@ -3,9 +3,9 @@ package main
 
 import "fmt"
 
-// Greet returns a greeting message for v1
+// Greet returns a greeting message for v2
 func Greet(name string) string {
-	return fmt.Sprintf("Hello, %s! (from v1)", name)
+	return fmt.Sprintf("Greetings, %s! (from v2)", name) // Changed message
 }
 
 func main() {
